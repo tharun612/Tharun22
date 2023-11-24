@@ -10,7 +10,7 @@ resource "aws_instance" "myinstance" {
   availability_zone = "ap-south-1a" 
   subnet_id = "subnet-0a6fdb0c9acd901f7" 
   vpc_security_group_ids = ["sg-065da31091aed4761"] 
-  key_name = "tharun" 
+  key_name = "kohli" 
   associate_public_ip_address = true 
   count = 1 
   tags = { 

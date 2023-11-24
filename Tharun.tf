@@ -14,7 +14,7 @@ resource "aws_instance" "myinstance" {
   associate_public_ip_address = true 
   count = 1 
   tags = { 
-  Name="tharun" 
+  Name="kohli" 
   } 
   ebs_block_device { 
    device_name = "/dev/sdb" 

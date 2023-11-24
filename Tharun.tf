@@ -3,6 +3,7 @@ provider "aws" {
   access_key = "AKIAVN2D6J7GC4S6KV7Z"
   secret_key = "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"
   region = "us-east-1"
+} 
 resource "aws_instance" "myinstance" { 
   ami = "ami-0fc5d935ebf8bc3bc" 
   instance_type = "t2.micro" 

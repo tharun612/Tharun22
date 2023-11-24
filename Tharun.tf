@@ -8,8 +8,8 @@ resource "aws_instance" "myinstance" {
   ami = "ami-0fc5d935ebf8bc3bc" 
   instance_type = "t2.micro" 
   availability_zone = "ap-south-1a" 
-  subnet_id = "subnet-01d6f82fe66937006" 
-  vpc_security_group_ids = ["sg-003933068c0bd85eb"] 
+  subnet_id = "subnet-0a6fdb0c9acd901f7" 
+  vpc_security_group_ids = ["sg-00f08c5b553632ab2"] 
   key_name = "tharun" 
   associate_public_ip_address = true 
   count = 1 
